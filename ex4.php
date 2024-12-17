@@ -21,13 +21,13 @@
 </head>
 <body>
     <h1>โปรแกรม ภาษา HTML สร้างฟอร์มข้อมูล</h1>
-    664485023  รวีโรจน์ ทองเปี่ยม <br>
+    664485023 นายรวีโรจน์ ทองเปี่ยม <br>
     หมู่เรียน66/96 <br>
-    <form action='ex4.php'method="GET">
-        ชื่อ <input type='text'name="n"> 
-        นามสกุล<input type='text'name="s"> 
-        <input type="submit"value='กดส่งข้อมูล'> <br>
+    <?php
+    $name=$_GET['n'];
+    $surname=$_GET['s'];
+    echo' My name is'.$name.''.$surname;
+
     
-    </form>
 </body>
 </html>
