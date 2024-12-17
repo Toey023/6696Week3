@@ -24,13 +24,11 @@
     664485023 นายรวีโรจน์  ทองเปี่ยม <br>
     หมู่เรียน66/96 <br>
     <?php
-    $weight=$_POST['w'];
-    $high=$_POST['h'];
-    $z=$weight*$high;
-    echo'พื้นที่='.$z;
-    
-   
-
+$wide= $_POST['w'];
+$high= $_POST['h'];
+$long= $_POST['l'];
+$z = $wide*$long*$high*0.01;
+echo'พื้นที่='.$z."คิว";
     ?>
 </body>
 </html>

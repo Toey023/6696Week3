@@ -21,16 +21,13 @@
 </head>
 <body>
     <h1>โปรแกรม ภาษา HTML สร้างฟอร์มข้อมูล</h1>
-    664485023 นายรวีโรจน์  ทองเปี่ยม <br>
+    664485023 นายรวีโรจน์ ทองเปี่ยม <br>
     หมู่เรียน66/96 <br>
-    <?php
-    $weight=$_POST['w'];
-    $high=$_POST['h'];
-    $z=$weight*$high;
-    echo'พื้นที่='.$z;
-    
-   
-
-    ?>
+    <h2>โปรแกรมคำนวณปูน</h2>
+    <form action='ex10.php'method="POST">
+        กว้าง <input type='text'name="w"> 
+        ยาว<input type='text'name="h"> 
+        สูง<input type='text'name="l"> 
+        <input type="submit"value='กดคำนวณข้อมูล'> <br>
 </body>
 </html>
